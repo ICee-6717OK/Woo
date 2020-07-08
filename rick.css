@@ -9,7 +9,11 @@
   clear: both;
   display: table;
 }
-
+body {
+  min-height: 100%;
+  overflow-y: scroll;
+  position: relative;
+}
 .image {
 display: block;
 width: 100%;
